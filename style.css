@@ -168,3 +168,374 @@ header a {
 .bag3-kanan img {
     width: 100%;
 }
+
+.bagian4 {
+    display: flex;
+}
+
+.bag4-kiri {
+    width: 50%;
+    background: radial-gradient(circle at top left, #47AC73, #32467B);
+    padding: 140px 0 20px 20px;
+}
+
+.bag4-kiri p:first-child {
+    font-size: 60px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.bag4-kiri p:nth-child(2) {
+    width: 80%;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 300;
+    line-height: 70px;
+    margin-top: 20px;
+}
+.bag4-kiri button {
+    font-size: 18px;
+    font-weight: 200;
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 0;
+}
+
+.bag4-kanan {
+    width: 50%;
+}
+
+.bag4-kanan img {
+    width: 100%;
+}
+
+.bagian5 {
+    display: flex;
+    height: auto;
+    width: 100%;
+    background-color: #FFF;
+}
+
+.bag5-kiri {
+    width: 50%;
+    background: #001A38;
+    padding: 100px 0 20px 20px;
+}
+
+.bag5-kiri p:first-child {
+    font-size: 60px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.bag5-kiri p:nth-child(2) {
+    width: 80%;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 300;
+    line-height: 40px;
+    margin-top: 20px;
+}
+
+.bag5-kiri p:nth-child(3) {
+    width: 80%;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 300;
+    line-height: 40px;
+    margin-top: 20px;
+}
+
+.bag5-kiri button {
+    font-size: 18px;
+    font-weight: 200;
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 0;
+}
+
+.bag5-kanan {
+    width: 50%;
+}
+
+.bag5-kanan img {
+    width: 100%;
+    height: auto;
+}
+
+.bagian6 {
+    height: 690px;
+    width: 100%;
+    background-image: url(./Assets/Images/bagian6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bag6-text {
+    padding: 150px 0 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bag6-text p:first-child {
+    font-size: 80px;
+    color: #fff;
+    font-weight: 200;
+}
+
+.bag6-text p:last-child {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 200;
+    line-height: 40px;
+}
+
+.bagian6 button {
+    padding:0 0 20px 20px;
+    font-size: 18px;
+    font-weight: 300;
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+video {
+    object-fit: contain;
+}
+
+.bagian8 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #DCDDDE;
+    padding: 70px 20px;
+}
+
+.bag8-kiri h2 {
+    width: 50%;
+    font-size: 40px;
+    font-weight: 500;
+    color: #000;
+}
+
+.bag8-kanan {
+    width: 50%;
+}
+.bag8-kanan p {
+    width: 80%;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+}
+
+.bagian8 button {
+    padding:0 0 20px 0;
+    font-size: 18px;
+    font-weight: 300;
+    border: none;
+    background-color: transparent;
+    color: #000;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.bagian9 {
+    display: flex;
+}
+
+.list-baju {
+    width: 25%;
+}
+
+.list-baju img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.bagian10 {
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+
+.bag10-kanan {
+    width: 50%;
+    background: #DEDEDE;
+    padding: 100px 0 20px 20px;
+}
+
+.bag10-kanan p:first-child {
+    font-size: 60px;
+    color: #000;
+    font-weight: 500;
+}
+
+.bag10-kanan p:nth-child(2) {
+    width: 80%;
+    font-size: 18px;
+    color: #000;
+    font-weight: 300;
+    line-height: 40px;
+    margin-top: 20px;
+}
+
+
+.bagian10 button {
+    font-size: 18px;
+    font-weight: 200;
+    border: none;
+    background-color: transparent;
+    color: #000;
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 0;
+}
+
+.bag10-kiri {
+    width: 50%;
+}
+
+.bag10-kiri img {
+    width: 100%;
+    height: auto;
+}
+
+
+.bagian11 {
+    display: flex;
+    height: auto;
+    width: 100%;
+    background-color: #FFF;
+}
+
+.bag11-kiri {
+    width: 50%;
+    background: #325949;
+    padding: 100px 0 20px 20px;
+}
+
+.bag11-kiri p:first-child {
+    font-size: 60px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.bag11-kiri p:nth-child(2) {
+    width: 80%;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 300;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+
+.bag11-kiri button {
+    font-size: 18px;
+    font-weight: 200;
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 0;
+}
+
+.bag11-kanan {
+    width: 50%;
+}
+
+.bag11-kanan img {
+    width: 100%;
+    height: auto;
+}
+
+.bagian12 {
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+
+.bag12-kanan {
+    width: 50%;
+    background: #DEDEDE;
+    padding: 100px 0 20px 20px;
+}
+
+.bag12-kanan p:first-child {
+    font-size: 40px;
+    color: #000;
+    font-weight: 500;
+}
+
+.bag12-kanan p:nth-child(2) {
+    width: 80%;
+    font-size: 18px;
+    color: #000;
+    font-weight: 300;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+
+.bagian12 button {
+    font-size: 18px;
+    font-weight: 200;
+    border: none;
+    background-color: transparent;
+    color: #000;
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 0;
+}
+
+.bag12-kiri {
+    width: 50%;
+}
+
+.bag12-kiri img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    padding: 100px 0 50px;
+    background-color: #fff;
+    color: #000;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 50px 0 25px 0;
+    border-top: 1px solid #000;
+}
+
+.copy-left {
+    padding: 15px 0;
+}
+
+.copy-left img {
+    width: 70px;
+}
+
+.copy-contact p,i {
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.copy-right p,i {
+    font-size: 22px;
+    padding: 0 15px 0 0;
+    cursor: pointer;
+}
