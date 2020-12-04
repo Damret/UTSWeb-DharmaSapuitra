@@ -42,15 +42,20 @@ header {
     display: flex;
 }
 
+header ul li {
+    padding: 0 24px 0 24px;
+}
+
 header a {
     text-decoration: none;
-    padding: 24px 24px;
+
     color: #000;
     font-weight: 300;
 }
 
-.nav-kiri  a:hover {
+.nav-kiri a:hover {
     border-bottom: 1px solid #000;
+    border-width: 1;
 }
 
 .nav-kanan  a:hover {
@@ -59,7 +64,7 @@ header a {
 
 .kesatu {
     height: 690px;
-    background-image: url(./Assets/Images/kesatu.jpg);
+    background-image: url(./Assets/Images/bagian1.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -71,7 +76,7 @@ header a {
 }
 
 .text-kesatu p:first-child {
-    font-size: 140px;
+    font-size: 140px; 
     color: #fff;
     font-weight: 200;
 }
@@ -176,13 +181,14 @@ header a {
 .bag4-kiri {
     width: 50%;
     background: radial-gradient(circle at top left, #47AC73, #32467B);
-    padding: 140px 0 20px 20px;
+    padding: 140px 0 20px 0;
 }
 
 .bag4-kiri p:first-child {
     font-size: 60px;
     color: #fff;
     font-weight: 500;
+    padding-left: 20px;
 }
 
 .bag4-kiri p:nth-child(2) {
@@ -192,6 +198,7 @@ header a {
     font-weight: 300;
     line-height: 70px;
     margin-top: 20px;
+    padding-left: 20px;
 }
 .bag4-kiri button {
     font-size: 18px;
@@ -201,7 +208,7 @@ header a {
     color: #ffffff;
     cursor: pointer;
     text-decoration: underline;
-    padding: 0;
+    padding-left: 20px;
 }
 
 .bag4-kanan {
@@ -222,13 +229,15 @@ header a {
 .bag5-kiri {
     width: 50%;
     background: #001A38;
-    padding: 100px 0 20px 20px;
+    padding: 100px 0 20px 0;
 }
+
 
 .bag5-kiri p:first-child {
     font-size: 60px;
     color: #fff;
     font-weight: 500;
+    padding-left: 20px;
 }
 
 .bag5-kiri p:nth-child(2) {
@@ -238,6 +247,7 @@ header a {
     font-weight: 300;
     line-height: 40px;
     margin-top: 20px;
+    padding-left: 20px;
 }
 
 .bag5-kiri p:nth-child(3) {
@@ -247,6 +257,7 @@ header a {
     font-weight: 300;
     line-height: 40px;
     margin-top: 20px;
+    padding-left: 20px;
 }
 
 .bag5-kiri button {
@@ -257,7 +268,7 @@ header a {
     color: #ffffff;
     cursor: pointer;
     text-decoration: underline;
-    padding: 0;
+    padding-left: 20px;
 }
 
 .bag5-kanan {
@@ -369,13 +380,14 @@ video {
 .bag10-kanan {
     width: 50%;
     background: #DEDEDE;
-    padding: 100px 0 20px 20px;
+    padding: 100px 0 20px 0px;
 }
 
 .bag10-kanan p:first-child {
     font-size: 60px;
     color: #000;
     font-weight: 500;
+    padding-left: 20px;
 }
 
 .bag10-kanan p:nth-child(2) {
@@ -385,6 +397,7 @@ video {
     font-weight: 300;
     line-height: 40px;
     margin-top: 20px;
+    padding-left: 20px;
 }
 
 
@@ -396,7 +409,7 @@ video {
     color: #000;
     cursor: pointer;
     text-decoration: underline;
-    padding: 0;
+    padding-left: 20px;
 }
 
 .bag10-kiri {
@@ -419,13 +432,14 @@ video {
 .bag11-kiri {
     width: 50%;
     background: #325949;
-    padding: 100px 0 20px 20px;
+    padding: 100px 0 20px 0px;
 }
 
 .bag11-kiri p:first-child {
     font-size: 60px;
     color: #fff;
     font-weight: 500;
+    padding-left: 20px;
 }
 
 .bag11-kiri p:nth-child(2) {
@@ -435,6 +449,7 @@ video {
     font-weight: 300;
     line-height: 20px;
     margin-top: 20px;
+    padding-left: 20px;
 }
 
 
@@ -446,7 +461,7 @@ video {
     color: #ffffff;
     cursor: pointer;
     text-decoration: underline;
-    padding: 0;
+    padding-left: 20px;
 }
 
 .bag11-kanan {
@@ -467,8 +482,17 @@ video {
 .bag12-kanan {
     width: 50%;
     background: #DEDEDE;
-    padding: 100px 0 20px 20px;
+    padding: 100px 0 20px 0px;
 }
+
+.bag12-kanan p {
+    padding-left: 20px;
+}
+
+.bag12-kanan button {
+    padding-left: 20px;
+}
+
 
 .bag12-kanan p:first-child {
     font-size: 40px;
@@ -494,7 +518,7 @@ video {
     color: #000;
     cursor: pointer;
     text-decoration: underline;
-    padding: 0;
+    padding-left: 20px;
 }
 
 .bag12-kiri {
@@ -506,8 +530,143 @@ video {
     height: auto;
 }
 
+.bagian13 {
+    background-color: rgb(243,243,243);
+    padding: 40px;
+}
+
+.service {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.service-area {
+    display: flex;
+    min-height: 100px;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.service-img {
+    padding: 0 0 10px 10px;
+    width: 115px;
+    height: 115px;
+}
+
+.service-img img {
+    width:60%;
+}
+
+.service-text p {
+    line-height: 1.4em;
+    cursor: pointer;
+}
+
+.service-text p:first-child {
+    font-size: 20px;
+}
+
+.service-text p:nth-child(2) {
+    font-size: 12px;
+}
+
+.service button {
+    font-size: 13px;
+    font-weight: 200;
+    border: none;
+    background-color: transparent;
+    color: #000;
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 10px 0;
+}
+
+.bagian14 {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 54px;
+}
+
+.info-area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-grid {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(4,auto);
+    list-style: none;
+    cursor: pointer;
+}
+
+.info-grid li {
+    margin: 10px 10px 10px 0;
+}
+
+.info-left .title {
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+.info-text a {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.info-left {
+    display: flex;
+}
+
+.wrapper {
+    display: flex;
+}
+.info-right {
+    text-align: right;
+}
+
+.info-right p {
+    padding-bottom: 15px;
+    text-align: left;
+}
+
+.info-right input {
+    height: 40px;
+    border: 1px solid #fff;
+    background: none;
+    border-radius: 50px 0 0 50px;
+    padding: 0 30px;
+    color: #fff;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.info-right button {
+    height: 40px;
+    border: 1px solid #fff;
+    border-left: none;
+    background: none;
+    border-radius: 0 50px 50px 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.info-right button img {
+    padding: 10px 13px 8px 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.containerf {
+    padding:10px 54px ;
+    margin: 0 auto;
+}
+
 footer {
-    padding: 100px 0 50px;
     background-color: #fff;
     color: #000;
 }
@@ -516,26 +675,14 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 50px;
-    padding: 50px 0 25px 0;
-    border-top: 1px solid #000;
 }
 
 .copy-left {
-    padding: 15px 0;
+    padding: 10px 0;
+    font-size: 12px;
 }
 
-.copy-left img {
-    width: 70px;
-}
-
-.copy-contact p,i {
-    font-size: 22px;
-    cursor: pointer;
-}
-
-.copy-right p,i {
-    font-size: 22px;
-    padding: 0 15px 0 0;
+.copy-right img {
+    padding: 0 0 0 20px;
     cursor: pointer;
 }
